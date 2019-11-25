@@ -25,7 +25,7 @@
         <!-- Short Code CSS -->
         <link href="/css/shortcode.css" rel="stylesheet">
         <!-- Custom Style CSS -->
-		<link href="/style.css" rel="stylesheet">
+		<link href="/css/style.css" rel="stylesheet">
         <!-- Color CSS -->
         <link href="/css/color.css" rel="stylesheet">
         <!-- Responsive CSS -->
@@ -40,7 +40,7 @@
 				<div class="mg_nav_wrapper">
                     <!-- iqoniq Logo Start-->
 					<div class="mg_logo">
-                        <a href="#"><img src="/images/logo.png" alt=""/></a>
+                        <a href="#"><img src="/images/images/logo.png" alt=""/></a>
                     </div>
                     <!-- iqoniq Logo End-->
                     <!-- iqoniq Navigation Start-->
@@ -148,7 +148,7 @@
                     <li class="">
                         <!--Banner Thumb START-->
                         <a href="#" data-rel="prettyphoto[]" target="_blank">
-                            <img src="/extra-images/banner1.jpg" alt="Image here">
+                            <img src="/images/extra-images/banner1.jpg" alt="Image here">
                             <div class="iq-caption-wrapper text-left">
                                 <div class="iq_banner_caption container">
                                     <div class="iq-caption">
@@ -165,7 +165,7 @@
                     <li class="">
                         <!--Banner Thumb START-->
                         <a href="#" data-rel="prettyphoto[]" target="_blank">
-                            <img src="/extra-images/banner2.jpg" alt="Image here">
+                            <img src="/images/extra-images/banner2.jpg" alt="Image here">
                             <div class="iq-caption-wrapper text-center">
                                 <div class="iq_banner_caption container">
                                     <div class="iq-caption">
@@ -182,7 +182,7 @@
                     <li class="">
                         <!--Banner Thumb START-->
                         <a href="#" data-rel="prettyphoto[]" target="_blank">
-                            <img src="/extra-images/banner3.jpg" alt="Image here">
+                            <img src="/images/extra-images/banner3.jpg" alt="Image here">
                             <div class="iq-caption-wrapper text-right">
                                 <div class="iq_banner_caption container">
                                     <div class="iq-caption">
@@ -221,9 +221,9 @@
                             </div>
                             <div class="col-md-6 col-sm-6">
                                 <div class="thumb about-slider">
-                                    <img src="/extra-images/aboutus.jpg" alt="">
-                                    <img src="/extra-images/aboutus-2.jpg" alt="">
-                                    <img src="/extra-images/aboutus-3.jpg" alt="">
+                                    <img src="/images/extra-images/aboutus.jpg" alt="">
+                                    <img src="/images/extra-images/aboutus-2.jpg" alt="">
+                                    <img src="/images/extra-images/aboutus-3.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -242,7 +242,7 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="mg_hotel_destination fancy-overlay">
                                     <figure>
-                                        <img src="/extra-images/destination11.jpg" alt=""/>
+                                        <img src="/images/extra-images/destination11.jpg" alt=""/>
                                         <figcaption>
                                             <a class="view_btn" href="#">view deal</a>
                                         </figcaption>
@@ -272,7 +272,7 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="mg_hotel_destination fancy-overlay">
                                     <figure>
-                                        <img src="/extra-images/destination12.jpg" alt=""/>
+                                        <img src="/images/extra-images/destination12.jpg" alt=""/>
                                         <figcaption>
                                             <a class="view_btn" href="#">view deal</a>
                                         </figcaption>
@@ -302,7 +302,7 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="mg_hotel_destination fancy-overlay">
                                     <figure>
-                                        <img src="/extra-images/destination13.jpg" alt=""/>
+                                        <img src="/images/extra-images/destination13.jpg" alt=""/>
                                         <figcaption>
                                             <a class="view_btn" href="#">view deal</a>
                                         </figcaption>
@@ -332,7 +332,7 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="mg_hotel_destination fancy-overlay">
                                     <figure>
-                                        <img src="/extra-images/destination14.jpg" alt=""/>
+                                        <img src="/images/extra-images/destination14.jpg" alt=""/>
                                         <figcaption>
                                             <a class="view_btn" href="#">view deal</a>
                                         </figcaption>
@@ -362,7 +362,7 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="mg_hotel_destination fancy-overlay">
                                     <figure>
-                                        <img src="/extra-images/destination15.jpg" alt=""/>
+                                        <img src="/images/extra-images/destination15.jpg" alt=""/>
                                         <figcaption>
                                             <a class="view_btn" href="#">view deal</a>
                                         </figcaption>
@@ -392,7 +392,7 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="mg_hotel_destination fancy-overlay">
                                     <figure>
-                                        <img src="/extra-images/destination16.jpg" alt=""/>
+                                        <img src="/images/extra-images/destination16.jpg" alt=""/>
                                         <figcaption>
                                             <a class="view_btn" href="#">view deal</a>
                                         </figcaption>
@@ -436,7 +436,7 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="iq-team fancy-overlay">
                                     <figure>
-                                        <img src="/extra-images/team1.jpg" alt="">
+                                        <img src="/images/extra-images/team1.jpg" alt="">
                                     </figure>
                                     <div class="text">
                                         <h5 class="team-heading"><a href="#">Estella Joseph</a></h5>
@@ -455,7 +455,7 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="iq-team fancy-overlay">
                                     <figure>
-                                        <img src="/extra-images/team2.jpg" alt="">
+                                        <img src="/images/extra-images/team2.jpg" alt="">
                                     </figure>
                                     <div class="text">
                                         <h5 class="team-heading"><a href="#">Cameron Joseph</a></h5>
@@ -474,7 +474,7 @@
                             <div class="col-md-4 hidden-sm">
                                 <div class="iq-team fancy-overlay">
                                     <figure>
-                                        <img src="/extra-images/team3.jpg" alt="">
+                                        <img src="/images/extra-images/team3.jpg" alt="">
                                     </figure>
                                     <div class="text">
                                         <h5 class="team-heading"><a href="#">Alberta Joseph</a></h5>
@@ -508,7 +508,7 @@
                                     <div class="accordion" id="section2"><i class="th-cl icon-cooker"></i> <span>Restaurant</span></div>
                                     <div class="accordion-content">
                                         <div class="text">
-                                            <figure><img src="/extra-images/accordianimg.jpg" alt=""></figure>
+                                            <figure><img src="/images/extra-images/accordianimg.jpg" alt=""></figure>
                                             <div class="overflow_text">
                                                 <h6 class="acc-title">Offer detail</h6>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisici elit.</p>
@@ -527,7 +527,7 @@
                                     <div class="accordion" id="section3"><i class="th-cl icon-sedan-car-front"></i> <span>Rent a car</span></div>
                                     <div class="accordion-content">
                                         <div class="text">
-                                            <figure><img src="/extra-images/accordianimg-3.jpg" alt=""></figure>
+                                            <figure><img src="/images/extra-images/accordianimg-3.jpg" alt=""></figure>
                                             <div class="overflow_text">
                                                 <h6 class="acc-title">Offer detail</h6>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisici elit.</p>
@@ -548,7 +548,7 @@
                                     <div class="accordion" id="section4"><i class="th-cl icon-restaurant"></i> <span>shopping centers</span></div>
                                     <div class="accordion-content">
                                         <div class="text">
-                                            <figure><img src="/extra-images/accordianimg-2.jpg" alt=""></figure>
+                                            <figure><img src="/images/extra-images/accordianimg-2.jpg" alt=""></figure>
                                             <div class="overflow_text">
                                                 <h6 class="acc-title">Offer detail</h6>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisici elit.</p>
@@ -567,7 +567,7 @@
                                     <div class="accordion" id="section5"><i class="th-cl icon-ferris-wheel"></i> <span>Attractions</span></div>
                                     <div class="accordion-content">
                                         <div class="text">
-                                            <figure><img src="/extra-images/accordianimg-4.jpg" alt=""></figure>
+                                            <figure><img src="/images/extra-images/accordianimg-4.jpg" alt=""></figure>
                                             <div class="overflow_text">
                                                 <h6 class="acc-title">Offer detail</h6>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisici elit.</p>
@@ -608,7 +608,7 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="mg_blog_listing fancy-overlay">
                                     <div class="thumb">
-                                        <a href=""><img src="/extra-images/news_grid4.jpg" alt=""></a>
+                                        <a href=""><img src="/images/extra-images/news_grid4.jpg" alt=""></a>
                                         <a class="mg_zoom_icon" href="#"><i class="fa fa-search"></i></a>
                                     </div>
                                     <div class="text">
@@ -627,7 +627,7 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="mg_blog_listing fancy-overlay">
                                     <div class="thumb">
-                                        <a href=""><img src="/extra-images/news_grid5.jpg" alt=""></a>
+                                        <a href=""><img src="/images/extra-images/news_grid5.jpg" alt=""></a>
                                         <a class="mg_zoom_icon" href="#"><i class="fa fa-search"></i></a>
                                     </div>
                                     <div class="text">
@@ -646,7 +646,7 @@
                             <div class="col-md-4 hidden-sm ">
                                 <div class="mg_blog_listing fancy-overlay">
                                     <div class="thumb">
-                                        <a href=""><img src="/extra-images/news_grid6.jpg" alt=""></a>
+                                        <a href=""><img src="/images/extra-images/news_grid6.jpg" alt=""></a>
                                         <a class="mg_zoom_icon" href="#"><i class="fa fa-search"></i></a>
                                     </div>
                                     <div class="text">
@@ -677,7 +677,7 @@
                                 <!-- iqoniq Pricing Table Start -->
                                 <div class="mg_pricing fancy-overlay">
                                     <div class="thumb">
-                                        <img src="/extra-images/price1.jpg" alt="">
+                                        <img src="/images/extra-images/price1.jpg" alt="">
                                         <div class="caption">
                                             <div class="rating_down">
                                                 <div class="rating_up" style="width:50%;"></div>
@@ -701,7 +701,7 @@
                                 <!-- iqoniq Pricing Table Start -->
                                 <div class="mg_pricing fancy-overlay">
                                     <div class="thumb">
-                                        <img src="/extra-images/price2.jpg" alt="">
+                                        <img src="/images/extra-images/price2.jpg" alt="">
                                         <div class="caption">
                                             <div class="rating_down">
                                                 <div class="rating_up" style="width:50%;"></div>
@@ -725,7 +725,7 @@
                                 <!-- iqoniq Pricing Table Start -->
                                 <div class="mg_pricing fancy-overlay">
                                     <div class="thumb">
-                                        <img src="/extra-images/price3.jpg" alt="">
+                                        <img src="/images/extra-images/price3.jpg" alt="">
                                         <div class="caption">
                                             <div class="rating_down">
                                                 <div class="rating_up" style="width:50%;"></div>
@@ -838,7 +838,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="widget widget_text">
                             <div class="logo">
-                                <a href="#"><img src="/images/ft-logo.png" alt=""/></a>
+                                <a href="#"><img src="/images/images/ft-logo.png" alt=""/></a>
                             </div>
                             <div class="text">
                                 <p>
@@ -876,12 +876,12 @@
                         <div class="widget widget_flicker">
                             <h6 class="widget-title">Photo gallery</h6>
                             <ul>
-                                <li><a href="#"><img src="/extra-images/flicker-1.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="/extra-images/flicker-1.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="/extra-images/flicker-1.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="/extra-images/flicker-1.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="/extra-images/flicker-1.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="/extra-images/flicker-1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="/images/extra-images/flicker-1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="/images/extra-images/flicker-1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="/images/extra-images/flicker-1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="/images/extra-images/flicker-1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="/images/extra-images/flicker-1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="/images/extra-images/flicker-1.jpg" alt=""></a></li>
                             </ul>
                         </div>
                     </div>
