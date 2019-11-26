@@ -51,7 +51,7 @@
                             </li>
                             <li><a href="/About-Us">about us</a></li>
                             <li>
-                                <a href="#">Rooms</a>
+                                <a href="/Our-Rooms">Rooms</a>
                                
                             </li>
                             <li>
@@ -76,20 +76,17 @@
                                    
                                 </li>
                                 <li><a href="/About-Us">About us</a></li>
-                                <li class="menu-item mg-parent-menu"><a href="#">Rooms</a>
-                                    <ul class="dl-submenu">
-                                       <li><a href="/Our-Rooms">our rooms</a></li>
-                                        
-                                    </ul>
+                                <li><a href="/Our-Rooms">Rooms</a>
+                                   
                                 </li>
                                 <li><a href="#">Blog</a>
                                     
                                 </li>
-                                <li class="menu-item mg-parent-menu"><a href="/Top-Desitinations">top destinations</a>
+                                <li ><a href="/Top-Desitinations">top destinations</a>
                                 </li>
                                
                                 <li ><a href="#">contact us</a>
-                                    
+                                
                                 </li>
                             </ul>
                         </div>

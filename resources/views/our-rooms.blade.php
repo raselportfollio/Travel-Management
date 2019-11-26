@@ -86,42 +86,22 @@
                         <div id="mg-responsive-navigation" class="dl-menuwrapper">
                             <button class="dl-trigger">Open Menu</button>
                             <ul class="dl-menu">
-                                <li class="menu-item mg-parent-menu">
-                                    <a href="#">home</a>
-                                    <ul class="dl-submenu">
-                                        <li><a href="index.html">Home Page 1</a></li>
-                                        <li><a href="index-2.html">Home Page 2</a></li>
-                                    </ul>
+                                <li >
+                                    <a href="/">home</a>
+                                    
                                 </li>
                                 <li><a href="about-us.html">About us</a></li>
-                                <li class="menu-item mg-parent-menu"><a href="#">Rooms</a>
-                                    <ul class="dl-submenu">
-                                       <li><a href="our-rooms.html">our rooms</a></li>
-                                        <li><a href="room-detail.html">room detail</a></li>
-                                    </ul>
+                                <li ><a href="/Our-Rooms">Rooms</a>
+                                    
                                 </li>
-                                <li class="menu-item mg-parent-menu"><a href="#">Blog</a>
-                                    <ul class="dl-submenu">
-                                        <li><a href="blog-medium-grid.html">blog medium</a></li>
-                                        <li><a href="blog-medium-grid3.html">blog medium 3</a></li>
-                                        <li><a href="blog-listing.html">blog-listing</a></li>
-                                        <li><a href="blog-full.html">blog full</a></li>
-                                        <li><a href="blog-detail.html">blog detail</a></li>
-                                    </ul>
+                                <li ><a href="#">Blog</a>
+                                    
                                 </li>
-                                <li class="menu-item mg-parent-menu"><a href="top-destinations.html">top destinations</a>
+                                <li ><a href="/Top-Destinations">top destinations</a>
                                 </li>
-                                <li class="menu-item mg-parent-menu"><a href="#">pages</a>
-                                    <ul class="dl-submenu">
-                                        <li><a href="404.html">404</a></li>
-                                        <li><a href="comingsoon.html">comingsoon</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item mg-parent-menu"><a href="#">contact us</a>
-                                    <ul class="dl-submenu">
-                                        <li><a href="contact-us.html">contact-us</a></li>
-                                        <li><a href="contact-us2.html">contact-us2</a></li>
-                                    </ul>
+                               
+                                <li ><a href="#">contact us</a>
+                                   
                                 </li>
                             </ul>
                         </div>
