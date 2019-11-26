@@ -49,7 +49,7 @@
                             <li><a href="#">home</a>
                               
                             </li>
-                            <li><a href="/about-us">about us</a></li>
+                            <li><a href="/About-Us">about us</a></li>
                             <li>
                                 <a href="#">Rooms</a>
                                

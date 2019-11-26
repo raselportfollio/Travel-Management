@@ -50,7 +50,7 @@
                             <li><a href="#">home</a>
                                 
                             </li>
-                            <li><a href="about-us.html">about us</a></li>
+                            <li><a href="/About-Us">about us</a></li>
                             <li>
                                 <a href="#">Rooms</a>
                                 
@@ -60,7 +60,7 @@
                                 
                             </li>
                             <li>
-                                <a href="top-destinations.html">top destinations</a>
+                                <a href="/Top-Destinations">top destinations</a>
                             </li>
                             <li>
                                 <a href="#">pages</a>
@@ -78,14 +78,14 @@
                                     <a href="#">home</a>
                                    
                                 </li>
-                                <li><a href="/about-us">About us</a></li>
+                                <li><a href="/About-Us">About us</a></li>
                                 <li class="menu-item mg-parent-menu"><a href="#">Rooms</a>
                                     
                                 </li>
                                 <li class="menu-item mg-parent-menu"><a href="#">Blog</a>
                                    
                                 </li>
-                                <li class="menu-item mg-parent-menu"><a href="/Top-Destination">top destinations</a>
+                                <li class="menu-item mg-parent-menu"><a href="/Top-Destinations">top destinations</a>
                                 </li>
                                 <li class="menu-item mg-parent-menu"><a href="#">pages</a>
                                    
