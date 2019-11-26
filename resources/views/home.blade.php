@@ -75,10 +75,10 @@
                                     <a href="#">home</a>
                                    
                                 </li>
-                                <li><a href="/about-us.html">About us</a></li>
+                                <li><a href="/About-Us">About us</a></li>
                                 <li class="menu-item mg-parent-menu"><a href="#">Rooms</a>
                                     <ul class="dl-submenu">
-                                       <li><a href="/our-rooms">our rooms</a></li>
+                                       <li><a href="/Our-Rooms">our rooms</a></li>
                                         
                                     </ul>
                                 </li>
