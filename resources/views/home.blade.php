@@ -883,14 +883,14 @@
                                 <div class="modal-content">
                                     <div class="user-box">
                                         <!--FORM FIELD START-->
-                                        <form action="/Signin" method="POST">
+                                        <form action="/signin" method="POST">
                                             @csrf
                                             <div class="mg_input_1">
                                                 <input type="text" placeholder="E-mail" name="email">
                                                 <i class="fa fa-envelope-o"></i>
                                             </div>
                                             <div class="mg_input_1">
-                                                <input type="text" placeholder="Password" name="password">
+                                                <input type="password" placeholder="Password" name="password">
                                                 <i class="fa fa-lock"></i>
                                             </div>
                                             <div class="dialog-footer">

@@ -52,4 +52,25 @@ class user extends Controller
             }
         }
     }
+    protected function login_check(Request $request)
+    {
+        $data['email']=$request->input('email');
+        $data['password']=md5($request->input('password'));
+        // print_r($data);
+        // print_r(userMOdel::verify_user($data['email'],$data['password'])); exit();
+        if(userMOdel::verify_user($data['email'],$data['password']))
+        {
+            \Session::flash('message', 'You are successfully login to your account'); 
+            //Session::flash('message', 'This is a message!'); 
+            \Session::flash('alert-type', 'success');
+            return redirect('/');
+        }
+        else 
+        {
+            \Session::flash('message', 'Wrong Email or Password!'); 
+            //Session::flash('message', 'This is a message!'); 
+            \Session::flash('alert-type', 'error');
+            return redirect("/");
+        }
+    }
 }

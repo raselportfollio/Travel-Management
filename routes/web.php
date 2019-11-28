@@ -24,3 +24,4 @@ Route::get('/Our-Rooms', function () {
 });
 
 Route::post('/signup', 'User@registration');
+Route::post('/signin', 'User@login_check');

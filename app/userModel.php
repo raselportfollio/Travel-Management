@@ -20,4 +20,14 @@ class userModel extends Model
             ->count();
         return $add;
     }
+    protected function verify_user($email,$pass)
+    {
+        $add=\DB::table('users_info')
+            ->select()
+            ->where('email',$email)
+            ->where('password',$pass)
+            ->where('status',"1")
+            ->count();
+        return $add;
+    }
 }
