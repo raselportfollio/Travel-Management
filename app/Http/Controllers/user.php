@@ -28,7 +28,7 @@ class user extends Controller
         $data['tokenId']=md5(uniqid());
         if(userModel::verify_email($data['email'])){
 
-            \Session::flash('message', 'Sorry! You have already an account with this email!'); 
+            \Session::flash('message', 'Sorry! You have already an account with this Email!'); 
             //Session::flash('message', 'This is a message!'); 
             \Session::flash('alert-type', 'error');
             return redirect("/");
@@ -38,7 +38,7 @@ class user extends Controller
         {
             if(userMOdel::insertUser($data))
             {
-                \Session::flash('message', 'Thanks for joining with us!'); 
+                \Session::flash('message', 'Thanks for joining with us! We already sent an verification email to your Email.'); 
                 //Session::flash('message', 'This is a message!'); 
                 \Session::flash('alert-type', 'success');
                 return redirect('/');
