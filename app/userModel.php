@@ -9,7 +9,7 @@ class userModel extends Model
     protected function insertUser($data)
     {
         $add=\DB::table('users_info')
-        ->insert(['name'=>$data['name'],'email'=>$data['email'],'password'=>$data['password'],'status'=>$data['status'],'userImage'=>$data['userImage'],'userType'=>$data['userType'],'dob'=>$data['dob'],'mobile'=>$data['mobile']]);
+        ->insert(['name'=>$data['name'],'email'=>$data['email'],'password'=>$data['password'],'tokenId'=>$data['tokenId'],'status'=>$data['status'],'userImage'=>$data['userImage'],'userType'=>$data['userType'],'dob'=>$data['dob'],'mobile'=>$data['mobile']]);
      return $add;
     }
     protected function verify_email($email)
