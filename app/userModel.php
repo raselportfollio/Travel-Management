@@ -27,7 +27,7 @@ class userModel extends Model
             ->where('email',$email)
             ->where('password',$pass)
             ->where('status',"1")
-            ->count();
+            ->first();
         return $add;
     }
 }

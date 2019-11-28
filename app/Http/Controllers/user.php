@@ -58,8 +58,11 @@ class user extends Controller
         $data['password']=md5($request->input('password'));
         // print_r($data);
         // print_r(userMOdel::verify_user($data['email'],$data['password'])); exit();
-        if(userMOdel::verify_user($data['email'],$data['password']))
+        $user=userMOdel::verify_user($data['email'],$data['password']);
+        // print_r($user); exit();
+        if($user)
         {
+            \Session::flash('name', $user->name);
             \Session::flash('message', 'You are successfully login to your account'); 
             //Session::flash('message', 'This is a message!'); 
             \Session::flash('alert-type', 'success');

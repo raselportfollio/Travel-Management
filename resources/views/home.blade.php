@@ -93,8 +93,15 @@
                         </div>
                         <!--DL Menu END-->
                         <div class="mg_login">
+                            <?php
+                                if(Session::has('name'))
+                                {
+                            ?>
+                            <p>{{ Session::get('name') }}</p>
+                                <?php } else { ?>
                             <a class="mg_search_btn" data-toggle="modal" data-target="#search" href="#"><i class="fa fa-search"></i></a>
                             <a class="mg_login_btn" data-toggle="modal" data-target="#reg-box" href="#"><i class="fa fa-lock"></i><span>Login Or Register</span></a>
+                                <?php } ?>
                         </div>
                     </div>
                     <!-- iqoniq Navigation End-->
@@ -805,7 +812,7 @@
                                      sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sanctus est Lorem ipsum dolor sit amet.
                                 </p>
                                 <div class="mg_contact"><i class="fa fa-phone"></i><span>+92-1234567689</span></div>
-                                <div class="mg_contact"><i class="fa fa-envelope-o"></i><span>iqoniqthemes@gmail.com</span></div>
+                                <div class="mg_contact"><i class="fa fa-envelope-o"></i><span>rasel@gmail.com</span></div>
                             </div>
                             <ul class="mg_social">
                                <li><a href="#"><i class="fa fa-facebook"></i></a></li> 
