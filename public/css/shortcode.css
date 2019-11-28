@@ -133,7 +133,7 @@
 .mg_input_1 textarea,
 .mg_selectric,
 .mg_input_1 .time_picker .timepicker,
-.mg_input_1 input[type="text"]{
+.mg_input_1 input{
     float: left;
     width: 100%;
     color: #7d8386;

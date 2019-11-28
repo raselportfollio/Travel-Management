@@ -22,3 +22,5 @@ Route::get('/About-Us', function () {
 Route::get('/Our-Rooms', function () {
     return view('our-rooms');
 });
+
+Route::post('/signup', 'User@registration');

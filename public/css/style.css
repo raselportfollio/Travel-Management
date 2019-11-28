@@ -2457,8 +2457,9 @@ input:checked + .radio-value {
          Index 2 Start #Index 2
       ============================================================
 */
-.dark-theme .iqoniq_contant_wrapper > section{
-}
+/* .dark-theme .iqoniq_contant_wrapper > section{
+
+} */
 .dark-theme .mg_hotel_hd1 h6,
 .dark-theme .mg_hotel_hd1 h4, 
 .dark-theme .mg_pricing .caption h6, 
@@ -2731,7 +2732,7 @@ input:checked + .radio-value {
 }
 
 .dark-theme .mg_contact_form .mg_input_1 textarea,
-.dark-theme .mg_contact_form .mg_input_1 input[type="text"]{
+.dark-theme .mg_contact_form .mg_input_1 input{
     background-color: #000;
     border-color: #333;
 }
@@ -2753,7 +2754,7 @@ input:checked + .radio-value {
 .dark-theme .mg_input_1 .rq-check-inout-single-wrapper,
 .dark-theme .mg_input_1 textarea, .mg_selectric,
 .dark-theme .mg_input_1 .time_picker .timepicker,
-.dark-theme .mg_input_1 input[type="text"]{
+.dark-theme .mg_input_1 input{
     border-color: #333;
     background-color: #000
 }

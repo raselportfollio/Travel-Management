@@ -30,6 +30,7 @@
         <link href="/css/color.css" rel="stylesheet">
         <!-- Responsive CSS -->
         <link href="/css/responsive.css" rel="stylesheet">
+        <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
 	</head>
 	<body class="dark-theme">
         <!-- iqoniq Wrapper Start-->
@@ -914,14 +915,31 @@
                                 <div class="modal-content">
                                     <div class="user-box">
                                        <!--FORM FIELD START-->
-                                        <form>
+                                        <form action="/signup" method="POST" enctype="multipart/form-data">
+                                            @csrf
                                             <div class="mg_input_1">
-                                                <input type="text" placeholder="E-mail">
+                                                <input type="text" placeholder="Full Name" name="name" required>
+                                                <i class="fa fa-user"></i>
+                                            </div>
+                                            <div class="mg_input_1">
+                                                <input type="text" placeholder="Email" name="email" required>
                                                 <i class="fa fa-envelope-o"></i>
                                             </div>
                                             <div class="mg_input_1">
-                                                <input type="text" placeholder="Password">
+                                                <input type="password" placeholder="Password" name="password" required>
                                                 <i class="fa fa-lock"></i>
+                                            </div>
+                                            <div class="mg_input_1">
+                                                <input type="text" placeholder="Mobile No" name="mobile" required>
+                                                <i class="fa fa-mobile" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="mg_input_1">
+                                                <input type="date" name="dob" required>
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="mg_input_1">
+                                                <input type="file" name="userImage" id="" required>
+                                                <i class="fa fa-file-image-o" aria-hidden="true"></i>
                                             </div>
                                             <div class="dialog-footer">
                                                 <div class="input-container">
@@ -1319,6 +1337,43 @@
         <script src="/js/dl-menu/modernizr.custom.js"></script>
         <script src="js/dl-menu/jquery.dlmenu.js"></script>
         <!--Custom Script-->
-    	<script src="js/custom.js"></script>
+        <script src="js/custom.js"></script>
+
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script>
+                // $('#dataTable2').DataTable( {
+                //       // order: "desc",
+                //       iDisplayLength:50,
+                //       aaSorting:[[0, 'desc']],
+                //       paging: true,
+                //       searching: true,
+                //       responsive: true,
+                //       fixedHeader: true,
+                //       bDestroy: true,
+                //       // "order": [["asc",1]],
+                //   } );
+              @if(Session::has('message'))
+                  var type="{{Session::get('alert-type','info')}}"
+          
+              
+                  switch(type){
+                      case 'info':
+                           toastr.info("{{ Session::get('message') }}");
+                           break;
+                      case 'success':
+                          toastr.success("{{ Session::get('message') }}");
+                          break;
+                       case 'warning':
+                          toastr.warning("{{ Session::get('message') }}");
+                          break;
+                      case 'error':
+                          toastr.error("{{ Session::get('message') }}");
+                          break;
+                  }
+                  
+          
+              @endif
+             
+          </script>
     </body>
 </html>

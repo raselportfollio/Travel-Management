@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class UsersInfo extends Migration
+class Users extends Migration
 {
     /**
      * Run the migrations.
@@ -26,6 +26,12 @@ class UsersInfo extends Migration
             $table->timestamps();
            
         });
+        // Schema::create('salary_variables', function (Blueprint $table) {
+        //     $table->increments('ID');
+        //     $table->string('variableName');
+        //     $table->string('addedBy');
+        //     $table->timestamps();
+        // });
     }
 
     /**
