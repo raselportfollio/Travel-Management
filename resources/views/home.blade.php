@@ -882,13 +882,14 @@
                                 <div class="modal-content">
                                     <div class="user-box">
                                         <!--FORM FIELD START-->
-                                        <form>
+                                        <form action="/Signin" method="POST">
+                                            @csrf
                                             <div class="mg_input_1">
-                                                <input type="text" placeholder="E-mail">
+                                                <input type="text" placeholder="E-mail" name="email">
                                                 <i class="fa fa-envelope-o"></i>
                                             </div>
                                             <div class="mg_input_1">
-                                                <input type="text" placeholder="Password">
+                                                <input type="text" placeholder="Password" name="password">
                                                 <i class="fa fa-lock"></i>
                                             </div>
                                             <div class="dialog-footer">
@@ -902,7 +903,7 @@
                                                     </label>
                                                     <a href="#">Forgot Password<i class="fa fa-question-circle"></i></a>
                                                 </div>
-                                                <button class="mg_btn1">Login</button>
+                                                <button type="submit" class="mg_btn1">Login</button>
                                             </div>
                                         </form>
                                         <!--FORM FIELD END-->
