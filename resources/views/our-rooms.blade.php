@@ -41,45 +41,27 @@
                     <div class="mg_nav">
                         <ul class="mg_navigation">
                             <li><a href="#">home</a>
-                                <ul class="children">
-                                    <li><a href="index.html">Home Page 1</a></li>
-                                    <li><a href="index-2.html">Home Page 2</a></li>
-                                </ul>
+                                
                             </li>
                             <li><a href="about-us.html">about us</a></li>
                             <li>
                                 <a href="#">Rooms</a>
-                                <ul class="children">
-                                    <li><a href="our-rooms.html">our rooms</a></li>
-                                    <li><a href="room-detail.html">room detail</a></li>
-                                </ul>
+                             
                             </li>
                             <li>
                                 <a href="#">blog</a>
-                                <ul class="children">
-                                    <li><a href="blog-medium-grid.html">blog medium</a></li>
-                                    <li><a href="blog-medium-grid3.html">blog medium 3</a></li>
-                                    <li><a href="blog-listing.html">blog-listing</a></li>
-                                    <li><a href="blog-full.html">blog full</a></li>
-                                    <li><a href="blog-detail.html">blog detail</a></li>
-                                </ul>
+                           
                             </li>
                             <li>
-                                <a href="top-destinations.html">top destinations</a>
+                                <a href="#">top destinations</a>
                             </li>
                             <li>
                                 <a href="#">pages</a>
-                                <ul class="children">
-                                    <li><a href="404.html">404</a></li>
-                                    <li><a href="comingsoon.html">comingsoon</a></li>
-                                </ul>
+                              
                             </li>
                             <li>
                                 <a href="#">contact us</a>
-                                <ul class="children">
-                                    <li><a href="contact-us.html">contact-us</a></li>
-                                    <li><a href="contact-us2.html">contact-us2</a></li>
-                                </ul>
+                               
                             </li>
                         </ul>
                         <!--DL Menu Start-->
